@@ -1,0 +1,1236 @@
+/*
+Theme Name: Fancy 2
+Theme URI: http://FancyDesign.vn/
+Description: Fancy Design.
+Version: 1.1
+Author: NII team
+Author URI: http://nii.vn/
+*/
+@charset "utf-8";
+/* CSS reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td, button {
+	margin:0;
+	padding:0;
+}
+html,body {
+	margin:0;
+	padding:0;
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
+}
+table {
+}
+fieldset,img {
+	border:0;
+}
+address,caption,cite,code,dfn,th,var {
+	font-style:normal;
+	font-weight:normal;
+}
+ol,ul {
+	list-style:none;
+}
+caption,th {
+	text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+q:before,q:after {
+	content:'';
+}
+abbr,acronym { border:0;
+}
+a{
+	/*color:#939598;*/
+	color: #949599;
+	text-decoration:none;
+}
+a:hover{
+	/*font-weight: bold;*/
+	color: #414042;
+}
+/* CSS Document */
+body{
+    background-color: #F3f3f3;
+    font-family: Arial, Helvetica, sans-serif;
+    text-rendering: optimizeLegibility;
+    font-size: 14px;
+    color: #414042;
+    line-height: 24px;
+}
+.wrapper{
+	width: 900px;
+	position:relative;
+	margin: 20px auto;
+}
+.wrapper .header{
+	float:left;
+	width: 100%;
+}
+.wrapper .header .logo {
+	float:left;
+	margin-bottom: 10px;
+}
+.wrapper .header .logo img{
+	width: 177px;
+}
+.social-counter {
+    position: absolute;
+    right: 0;
+}
+.social-counter a{
+    margin-right: 10px;
+}
+.social-counter ul li {
+	float:left;
+}
+.social-counter ul li span {
+	line-height: 10px;
+	vertical-align:text-top;
+}
+.social-counter ul li .counter {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	margin-left: 3px;
+}
+#s{
+}
+span#s-icon {
+}
+#s input{
+	width: 131px;
+	height: 18px;
+	background: url(images/search.png) no-repeat center center;
+	border: none;
+}
+/* -------------------------------- MENU -----------------------------------------*/
+.more-products .menu{
+}
+.menu {
+	width: 100%;
+	float:left;
+	margin-top: 10px;
+	text-transform: uppercase;
+	border-top: 1px solid #989898;
+	padding: 20px 0;
+	position: relative;
+	border-bottom: 1px solid #989898;
+}
+.menu a
+{
+	text-decoration:none;
+}
+.menu > ul{
+	float: left;
+}
+.menu ul li {
+	float:left;
+}
+.current_page_item  a{
+    color: #414042;
+	font-weight: bold;
+}
+.menu .right-menu ul li:last-child {
+
+}
+.menu ul li span {
+}
+.menu ul li span a{
+	padding-right: 20px;
+}
+.menu .count {
+	height:20px;
+	padding-left:5px;
+	padding-right:8px;
+	float:right;
+	margin-top:-32px;
+	margin-left: 10px;
+	line-height:20px;
+	font-size:14px;
+}
+.wrapper .menu ul #menu-selected {
+}
+.wrapper .menu ul #menu-hover {
+}
+/* -------------------------------- END MENU -----------------------------------------*/
+.wrapper .wrapper-content {
+	float:left;
+	width: 100%;
+	margin-top: 20px;
+}
+/* -------------------------------- SIDEBAR -----------------------------------------*/
+.wrapper .wrapper-content .side-bar-wrapper
+{
+	width: 198px;
+	float: left;
+	border: 1px solid #414042;
+	border-radius: 5px;
+	overflow: hidden;
+	text-align: center;
+	margin: 0 0 20px 0;
+}
+.fix{
+	position: fixed;
+}
+.wrapper .wrapper-content .side-bar {
+    padding: 20px;
+}
+.wrapper .wrapper-content .side-bar .side-bar-inner-shadow {
+	width: 200px;
+	height: 10px;
+}
+
+#view-portfolio a {
+	background: #3A3A3C;
+	color: #E9E9EB;
+	width: 100%;
+	padding: 10px 0;
+	display: block;
+}
+.wrapper .wrapper-content .side-bar .side-bar-content .item {
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.blog-item-shadow{
+	background: url(images/blog_item_shadow.jpg) no-repeat;
+	position: absolute;
+	bottom: 25px;
+	width: 160px; height: 9px;
+	left: 0;
+}
+.wrapper .wrapper-content .side-bar .side-bar-content .item .item-title {
+	padding-top: 10px;
+	min-height:22px;
+}
+.wrapper .wrapper-content .side-bar .side-bar-content .item .item-title span.title {
+	font-family: Helvetica, sans-serif;
+	font-weight:bold;
+	font-size: 12px;
+	color: #414042;
+	text-transform: capitalize;
+}
+.wrapper .wrapper-content .side-bar .side-bar-content .item img {
+	width: 160px;
+}
+.wrapper .wrapper-content .side-bar .side-bar-content .item ul {
+    margin-top: 15px;
+}
+.wrapper .wrapper-content .side-bar .side-bar-content .item a {
+	text-decoration:none;
+}
+.item-name {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height: 30px;
+	text-align:center;
+}
+.wrapper .wrapper-content .side-bar .side-bar-content .item ul li a {
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left:28px;
+	font-size:12px;
+}
+/* -------------------------------- END SIDEBAR-----------------------------------------*/
+/* -------------------------------- MAIN CONTENT -----------------------------------------*/
+.main-content {
+	float: right;
+	margin: 0 0 20px 20px;
+	width: 680px;
+}
+.post {
+	float: left;
+	border-bottom: 1px solid #989898;
+	padding: 20px 0;
+	width: 100%;
+}
+.share .reading {
+	display: block;
+	width: 100%;
+	text-align: right;
+	font-style: italic;
+}
+.post:last-child{
+	border-bottom: none;
+}
+
+.post .post-thumbs{
+    float: left;
+	
+}
+.post .post-content {
+    float: left;
+    width: 100%;
+}
+.post .post-content .excerpt {
+	float: left;
+	width: 418px;
+	margin-left: 20px;
+	height: 170px;
+	position: relative;
+}
+
+.post .post-title a{
+	font-size: 18px;
+    color: #414042;
+    line-height: 24px;
+    font-weight: bold;
+}
+
+.post-content .item-thumbs{
+    float: left;
+    position: relative;	
+}
+.blog-image-shadow{
+	background: url(images/blog_image_shadow.jpg) no-repeat;
+	width: 240px; height: 12px;
+	position: absolute;
+	left: 0;  bottom: 0;
+}
+.is-page .post-content .content
+{
+    width: 100%;
+    margin: 0;
+}
+
+.content p img{
+
+}
+/*trong trang single*/
+.is-single {
+	margin: 0;
+	padding: 0;
+}
+.is-single .post-content .content {
+	margin-left: 0px;
+	width: 100%;
+	padding-bottom: 15px;
+}
+/*end trong trang single*/
+.post-content .content .the-content{
+	/*padding-top:20px;*/
+}
+.post-content .content .the-content h1,
+.post-content .content .the-content h2,
+.post-content .content .the-content h3,
+.post-content .content .the-content h4,
+.post-content .content .the-content h5,
+.post-content .content .the-content h6{
+	font-family:"Arial", Gadget, sans-serif;
+}
+.post-content .content .the-content h1{
+	font-size:35px;
+}
+.post-content .content .the-content h2{
+	font-size:30px;
+}
+.post-content .content .the-content h3{
+	font-size:25px;
+}
+.post-content .content .the-content h4{
+	font-size:20px;
+}
+.post-content .content .the-content h5{
+	font-size:15px;
+}
+.post-content .content .the-content h6{
+	font-size:10px;
+}
+
+.content .top{
+	border-bottom: 1px solid #989898;
+	padding-bottom: 10px;
+	line-height: 30px;
+	margin-bottom: 20px;
+}
+
+.blog_image{
+	position: relative;
+}
+.blog_image .blog_single_shadow{
+	background: url(images/blog_single_shadow.jpg) no-repeat;
+	width: 100%;
+	height: 16px;
+	position: absolute;
+	bottom: -6px; left: 0;
+}
+.blog_image img{
+	width: 100%;
+	margin: 0!important;
+	height: 280px;
+}
+.post-content .content .the-content p{
+	padding: 10px 0;
+}
+.post .post-content span img {
+	width:240px; height: 170px;
+}
+.content-title a{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size: 24px;
+	color: #414042;
+}
+.post .post-content .content .post-info,
+.post .post-content .content .post-info a {
+	font-family:"Arial", Gadget, sans-serif;
+	font-size: 12px;
+}
+.content-title {
+	text-transform: uppercase;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #989898;
+}
+.post .post-content .content .top h3 {
+	font-size: 22px;
+}
+
+.post .post-content .content
+.post .post-content .excerpt .reading{
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+	position: relative;
+	display: block;
+	text-align: right;
+}
+
+.share{
+	position: absolute;
+	bottom: -14px;
+	width: 100%;
+}
+
+.share span{
+	border-top: 1px solid #989898;	
+	line-height: 38px;
+	display: block;
+}
+
+.paging{
+	float:right;
+	margin-top: 20px;
+}
+
+.paging li{
+	display: inline-block;
+	height: 30px;
+}
+.paging li a{
+
+}
+
+.paging .page-next a{
+	display: block;
+	background: url(images/next.png) center center no-repeat;
+	width: 30px; 
+	text-indent: -110%;
+	overflow: hidden;
+}
+/* -------------------------------- END MAIN CONTENT -----------------------------------------*/
+/* -------------------------------- COMMENT -----------------------------------------*/
+.comment-template{
+	margin-top: 20px;
+	float: left;
+	width: 100%;
+}
+.comment-author-vcard{
+	float:left;
+	margin-right: 20px;
+	position: relative;
+}
+.comment-author-vcard img{
+    width: 100px;
+    height: 100px;
+}
+.avatar-shadow{
+	width: 100px;
+	height: 5px;
+	position:absolute;
+	background: url(images/comment_avatar_shadow.jpg) no-repeat;
+	bottom: -5px;
+	left: 0;
+}
+.comment.even{
+	border-bottom: 1px solid #989898;
+	margin-bottom: 20px;
+}
+.comment-author{
+    padding-bottom: 5px;
+	
+}
+.comment-text{
+
+}
+.commentBody{
+	float:left;
+	position: relative;
+	width: 560px;
+	min-height: 100px;
+}
+.depth-2{
+	margin-left:50px;
+	padding-bottom: 0!important;
+}
+.depth-2 .commentBody{
+    width: 510px;
+}
+
+.children{
+	float:left;
+	margin-top: 20px;
+}
+.comment-content{
+    float: left;
+    width: 100%;
+}
+.comment-content a{
+}
+.comment-template #comments-title {
+	margin-bottom: 20px;
+	font-size: 18px;
+	padding: 15px 0;
+	font-weight: bold;
+	border-top: 1px solid #989898;
+	border-bottom: 1px solid #989898;
+}
+.comment-template #comments-title em{
+}
+.comment{
+	padding-bottom: 20px;
+	float:left;
+	position: relative;
+}
+.cancel-comment-reply{
+	margin-bottom:4px;
+}
+#respond{
+	float:left;
+	width: 100%;
+	margin-top: 20px;
+}
+#respond h3,
+#contact-respond h3,
+#contact-title h3 {
+	font-size:16px;
+	padding-bottom:4px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+#respond h3 a ,
+#contact-respond h3 a {
+	text-decoration:none;
+	font-size:14px;
+}
+#respond h3#star,
+#contact-title h3#star{
+	font-size:12px;
+}
+.reply{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.reply a{
+	font-style: italic;
+}
+p.logged{
+	padding:10px 0px;
+}
+.waiting-approve{
+	float:left;
+	margin-top: 10px;
+}
+input{
+	border:none;
+	padding:3px 5px 4px;
+	width:190px;
+	font-style:italic;
+	font-size:12px;
+}
+input[type="text"],
+textarea,
+input[type="submit"]
+{
+	border: 1px solid #414042;
+	border-radius: 5px;
+	background: transparent;
+	outline: none;
+}
+input[type="text"], textarea{
+    box-sizing: border-box;
+
+}
+#comments .left-comment ,
+#contact-respond .left-comment{
+	float:left;
+	width: 40%;
+}
+#contact-respond .left-comment{
+	margin-bottom:30px;
+	width:260px;
+}
+#comments .left-comment p,
+#contact-respond .left-comment p{
+	margin-top: 10px;
+	width: 100%;
+}
+
+input[type="text"]{
+	height: 30px;
+	outline: none;
+	width: 100%;
+}
+input[type="submit"],
+button[type="submit"]{
+	padding: 3px 5px 4px;
+	float:right;
+	height: 35px;
+	width:150px;
+	cursor:pointer;
+	font-style:italic;
+	font-size:12px;
+}
+#comments .left-comment p.submit-comment,
+#contact-respond .left-comment p.submit-comment{
+}
+#comments p.submit-comment input[type="submit"]:active,
+#contact-respond p.submit-comment button[type="submit"]:active {
+}
+p#admin-submit input[type="submit"]{
+	height:35px;
+	margin-right:50px;
+	margin-top:11px;
+	font-style:italic;
+	font-size:12px;
+}
+p#admin-submit input[type="submit"]:active{
+}
+p#textarea {
+	float: left;
+	margin: 10px 0 0 18px;
+	width: 57%;
+}
+textarea {
+	float: left;
+	width: 100%;
+	padding: 15px;
+	height: 100%;
+	box-sizing: border-box;
+}
+/* -------------------------------- END COMMENT -----------------------------------------*/
+/* -------------------------------- FOOTER -----------------------------------------*/
+.footer-wapper {
+	padding-top: 20px;
+	float:left;
+	width:900px;
+	min-height:290px;
+	border-top: 1px solid #77787B;
+}
+.footer-wapper .footer-title{
+	height: 30px;
+	width:900px;
+}
+.footer-wapper .footer-title ul li {
+	float:left;
+	width: 300px;
+	font-size:14px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.footer-wapper .footer-content{
+	width:900px;
+	min-height:216px;
+	float:left;
+}
+.footer-wapper .footer-content > ul > li {
+	float:left;
+	overflow:hidden;
+	width: 270px;
+	padding: 0 30px 0 0;
+	min-height:192px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:justify;
+}
+.footer-content ul.info-ct{
+	float: left;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+.footer-content ul.info-ct li{
+	margin-bottom: 10px;
+}
+.footer-content ul.info-ct a{
+}
+.footer-content li.blog ul li{
+	padding-bottom:10px;
+	text-align:left;
+}
+.map{
+	height:160px;
+	width:240px;
+}
+.footer-wapper .footer{
+	position:relative;
+}
+.footer-wapper .footer{
+	height: 40px;
+	width:900px;
+	float:left;
+	line-height: 40px;
+	border-top: 1px solid #77787B;
+}
+.footer-wapper .footer .info-footer{
+	float:left;
+}
+.footer-wapper .footer #back-to-top{
+	float:right;
+}
+.footer-wapper .footer .info-footer ul{
+	float:left;
+}
+.footer-wapper .footer .info-footer li{
+	float:left;
+}
+.footer-wapper .footer .info-footer p{
+	float:left;
+}
+.footer-wapper .footer .info-footer p span{
+}
+.footer-wapper .footer .info-footer p a{
+}
+#menu-footer li.current_page_item{
+}
+#menu-footer li a{
+}
+.footer-wapper .footer p#back-to-top {
+	cursor:pointer;
+	float:right;
+}
+.footer-wapper .footer .social-counter {
+	float:right;
+	position: relative;
+}
+/* -------------------------------- END FOOTER -----------------------------------------*/
+.home {
+}
+#home-logo{
+	position: absolute;
+	margin-top: 30px;
+	z-index: 1000;
+	margin-left: 25px;
+}
+.home .wrapper-home{
+	max-width:900px;
+	min-width:900px;
+	position:relative;
+	left:50%;
+	margin-left:-450px;
+	float:left;
+	margin-top:20px;
+	margin-bottom:40px;
+}
+/************** header trang home ***************/
+.home .wrapper-home .home-header{
+	float:left;
+	width:900px;
+	margin-top:15px;
+	margin-bottom:20px;
+}
+.home .wrapper-home .home-header .logo{
+	float:left;
+	width:160px;
+	margin-top:0px;
+	margin-left:0px;
+}
+.home .wrapper-home .home-header .logo img{
+	width:140px;
+}
+.home .wrapper-home .home-header .menu{
+	margin-top:50px;
+	float:right;
+	overflow:hidden;
+	width:auto;
+}
+/************** end header trang home ***************/
+.home .wrapper-home .leftbar {
+	margin-top:15px;
+	float:left;
+	max-width: 175px;
+}
+.rightbar {
+	float:left;
+	height:450px;
+	margin-bottom: 30px;
+	z-index:9999;
+	margin-top: -1px;
+}
+.slider-wrapper{position: relative!important;}
+.slider-wrapper .home-slider-shadow{
+	background: url(images/home_slider_shadow.jpg) no-repeat;
+	width: 100%;
+	height: 18px;
+	position: absolute;
+	left: 0;
+	bottom: -18px;
+}
+.home .wrapper-home .more-products{
+	float:right;
+	max-width:900px;
+	min-height: 70px;
+}
+.more-products ul{
+}
+.more-products ul li:first-child{
+}
+.more-products .title{
+	height:50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.more-products .menu{
+	width:900px;
+	margin:0px;
+}
+.home .more-products {
+	position:relative;
+	float:left;
+	width:900px;
+}
+
+.more-products-content .next, .more-products-content .prev{
+	position:absolute;
+	width:20px;
+	height:20px;
+	margin-top:31px;
+	opacity:0.7;
+}
+.more-products-content .next:hover, .more-products-content .prev:hover{
+	opacity:1;
+	margin-top:30px;
+}
+.more-products-content .prev{
+	margin-left:30px;
+}
+.more-products-content .next{
+	margin-left: 850px;
+}
+#home-slider{
+	margin:10px 70px 20px 70px;
+}
+.more-products-content img{
+}
+.more-products-content li{
+}
+{
+}
+/*
+Skin Name: Nivo Slider Default Theme
+Skin URI: http://nivo.dev7studios.com
+Skin Type: flexible
+Description: The default skin for the Nivo Slider.
+Version: 1.0
+Author: Gilbert Pellegrom
+Author URI: http://dev7studios.com
+*/
+.theme-default .nivoSlider {
+	position:relative;
+}
+/*.nivo-slice, .nivo-box{
+	float:left;
+}*/
+.theme-default .nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+}
+.theme-default .nivoSlider a {
+	border:0;
+	display:block;
+}
+.theme-default .nivo-controlNav {
+	display:none;
+	position:absolute;
+	right:5%;
+	bottom:10px;
+}
+.theme-default .nivo-controlNav a {
+	display:block;
+	width:22px;
+	height:22px;
+	text-indent:-9999px;
+	border:0;
+	margin-right:3px;
+	float:left;
+}
+.theme-default .nivo-controlNav a.active {
+}
+.theme-default .nivo-directionNav a {
+	display:block;
+	width:30px;
+	height:30px;
+	text-indent:-9999px;
+	border:0;
+}
+.theme-default a.nivo-nextNav {
+	right:15px;
+}
+.theme-default a.nivo-prevNav {
+	left:15px;
+}
+.theme-default .nivo-caption {
+    font-family: Helvetica, Arial, sans-serif;
+}
+.theme-default .nivo-caption a {
+    
+}
+.theme-default .nivo-caption a:hover {
+}
+.theme-default #slider {
+    width:900px; /* Make sure your images are the same size */
+    height:450px; /* Make sure your images are the same size */
+}
+.theme-default #slider img{
+}
+/* The Nivo Slider styles */
+.nivoSlider {
+	position:relative;
+}
+.nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	z-index:6;
+	display:none;
+}
+/* The slices and boxes in the Slider */
+.nivo-slice {
+	display:block;
+	position:absolute;
+	z-index:5;
+	height:100%;
+}
+.nivo-box {
+	display:block;
+	position:absolute;
+	z-index:5;
+}
+/* Caption styles */
+.nivo-caption {
+	position:absolute;
+	left:0px;
+	bottom:0px;
+	width:100%;
+	z-index:8;
+	height: 20px;
+}
+.nivo-caption p {
+	margin:0;
+	font-family:"Times New Roman", Times, serif;
+	font-size:18px;
+	font-style:italic;
+}
+.nivo-caption a {
+	display:inline !important;
+}
+.nivo-html-caption {
+    display:none;
+}
+/* Direction nav styles (e.g. Next & Prev) */
+.nivo-directionNav a {
+	position:absolute;
+	top:45%;
+	z-index:9;
+	cursor:pointer;
+}
+.nivo-prevNav {
+	left:0px;
+}
+.nivo-nextNav {
+	right:0px;
+}
+/* Control nav styles (e.g. 1,2,3...) */
+.nivo-controlNav a {
+	position:relative;
+	z-index:9;
+	cursor:pointer;
+}
+.nivo-controlNav a.active {
+	font-weight:bold;
+}
+/*********************************************************** GALLERY ***********************************************************/
+/**** gallery-menu ****/
+.wrapper-gallery {
+	float: left;
+	width: 100%;
+	margin-bottom: 40px;
+}
+
+.wrapper-gallery a{
+	color: #414042;
+}
+
+.wrapper-gallery .first-item{
+	margin-left: 0!important;
+}
+
+.wrapper-gallery .last-item{
+	margin-right: 0!important;
+}
+.wrapper-gallery .menu-gallery {
+	width: 100%;
+	float: left;
+}
+.wrapper-gallery .menu-gallery li {
+	display: inline-block;
+}
+.wrapper-gallery .menu-gallery li a{
+	padding: 20px 20px 20px 0px;
+	display: block;	
+}
+
+.wrapper-gallery .menu-gallery li:hover{
+}
+.wrapper-gallery .menu-gallery li.gallery-current a{
+	color: #414042;
+	font-weight: bold;
+}
+/**** end gallery-menu ****/
+/**** gallery-item ****/
+.product-content-title{
+	text-transform: uppercase;
+	padding: 20px 0;
+	border-bottom: 1px solid #989898;
+	font-weight: bold;
+	font-size: 24px;
+}
+.wrapper-gallery ul.gallery-item {
+	float: left;
+	width:100%;
+	overflow: hidden;
+}
+.wrapper-gallery ul.gallery-item li {
+	float:left;
+	margin: 0 33px 33px 0;
+	position: relative;
+}
+
+.gallery-item .gallery-item-shadow{
+	background: url(images/gallery_item_shadow.jpg) no-repeat;
+	position: absolute;
+	width: 200px;
+	height: 12px;
+	bottom: 22px;
+	left: 0;
+}
+.wrapper-gallery .gallery-item li a img {
+	/*width:160px;
+	height:80px;*/
+}
+.wrapper-gallery .gallery-item li a p {
+	text-align:center;
+	padding-top: 10px;
+	text-transform: capitalize;
+}
+/**** end gallery-item ****/
+/*********************************************************** end GALLERY ***********************************************************/
+/*********************************************************** MORE PRODUCTS ***********************************************************/
+.more-products .more-products-title{
+	font-style:italic;
+	padding: 10px 0;
+}
+.main-content .more-products {
+	float: left;
+	width: 100%;
+}
+
+/*********** NAV *************/
+.main-content .more-products .more-products-content{
+	border: 1px solid #414141;
+	border-radius: 5px;
+}
+.more-products-nav-prev{
+	position:absolute;
+	width:17px;
+	height:22px;
+	top:45px;
+	left:12px;
+}
+.more-products-nav-next{
+	position:absolute;
+	width:17px;
+	height:22px;
+	top:45px;
+	right:12px;
+}
+/*********** end NAV *************/
+/*********** ITEM *************/
+.main-content .more-products ul {
+}
+.main-content .more-products ul li {
+    margin: 20px 10px;
+    position: relative;
+}
+
+.main-content .more-products ul li img {
+    width: 150px;
+    height: 105px;
+}
+
+.more-products .more-product-shadow{
+	background: url(images/more_product_shadow.jpg) no-repeat;
+	width: 100%; height: 8px;
+	position: absolute;
+	bottom: 18px;
+}
+.main-content .more-products ul li p {
+	font-size:12px;
+	text-align:center;
+	padding-top: 2px;
+	text-transform: capitalize;
+	color: #414141;
+}
+/*********** end ITEM *************/
+/*********************************************************** end MORE PRODUCTS ***********************************************************/
+/*********************************************************** CONTACT FORM ***********************************************************/
+#contact-respond{
+	width: 310px;
+	float: left;
+}
+#contact-respond p#textarea{
+	margin:10px 0 0 0;
+}
+#contact-respond textarea{
+	height: 100px;
+}
+#contact-respond p.submit-comment button[type="submit"]{
+	border: 1px solid #414042;
+	border-radius: 5px;
+}
+#contact-respond .left-comment p {
+	float:left;
+}
+#contact-respond input[type="text"]{
+	height: 30px;
+	width: 260px;
+	border: 1px solid #414042;
+	border-radius: 5px;
+}
+#contact-respond h3{
+	font-size:15px;
+}
+.post-content .contact-info{
+	margin-bottom: 20px!important;
+}
+.is-page{
+    padding: 0;
+}
+#contact-title{
+}
+#contact-title h3 {
+	font-size:15px;
+}
+#result{
+	float: left;
+	width: 200px;
+	font-style: italic;
+}
+ul.info-ct{
+	margin: 20px 30px 0px 0px;
+	list-style:none;
+	float: left;
+}
+ul.info-ct p{
+    color: #414042;
+}
+ul.info-ct li{
+	margin-bottom: 4px;
+	padding-left:30px;
+}
+ul.info-ct li.name{
+	background: url(images/name-icon.png) left center no-repeat;
+	
+}
+ul.info-ct li.email{
+	background: url(images/email-icon.png) left center no-repeat;
+}
+ul.info-ct li.mobile{
+	background: url(images/mobile-icon.png) left center  no-repeat;
+}
+ul.info-ct li.facebook{
+	background: url(images/icon-facebook.png) no-repeat;
+}
+/*********************************************************** end CONTACT FORM ***********************************************************/
+
+/*************************************Fancy Search****************************/
+#fancy_search{
+    width: 600px;
+    min-height: 600px;
+}
+
+#fancy_search .close{
+
+}
+
+#fancy_search form{
+	float: left;
+	width: 560px;
+	padding: 20px;
+	line-height: 50px;
+	position: relative;
+	z-index: 999;
+	border-bottom: 1px solid #414042;
+}
+
+#fancy_search form input[type="text"]{
+    float: left;
+    width: 200px;
+    border-radius: 0;
+    margin-right: 10px;
+    font-style: normal;
+    font-size: 14px;
+}
+
+#fancy_search form input[type="submit"]{
+	float: left;
+	height: 30px;
+	padding: 0 25px;
+	width: auto;
+}
+
+#fancy_search .fancy-search-result{
+    height: 500px;	
+    /*background: red;*/
+    float: left;
+    width: 100%;
+    overflow: auto;
+    padding-left: 20px;
+}
